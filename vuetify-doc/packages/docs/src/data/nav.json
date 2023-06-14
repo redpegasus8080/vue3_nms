@@ -1,0 +1,249 @@
+[
+  {
+    "title": "introduction",
+    "inactiveIcon": "mdi-script-text-outline",
+    "activeIcon": "mdi-script-text",
+    "items": [
+      "why-vuetify",
+      "long-term-support",
+      "roadmap",
+      "meet-the-team",
+      "sponsors-and-backers",
+      { "divider": true },
+      { "subheader": "professional-support" },
+      "enterprise-support"
+    ]
+  },
+  {
+    "title": "getting-started",
+    "inactiveIcon": "mdi-speedometer-medium",
+    "activeIcon": "mdi-speedometer",
+    "items": [
+      "installation",
+      "frequently-asked-questions",
+      "wireframes",
+      "browser-support",
+      "upgrade-guide",
+      "release-notes",
+      "contributing"
+    ]
+  },
+  {
+    "title": "features",
+    "inactiveIcon": "mdi-image-edit-outline",
+    "activeIcon": "mdi-image-edit",
+    "items": [
+      "aliasing",
+      "application-layout",
+      "blueprints",
+      "display-and-platform",
+      "global-configuration",
+      "icon-fonts",
+      "internationalization",
+      "sass-variables",
+      "theme",
+      "treeshaking"
+    ]
+  },
+  {
+    "title": "styles",
+    "inactiveIcon": "mdi-palette-outline",
+    "activeIcon": "mdi-palette",
+    "items": [
+      "css-reset",
+      "transitions",
+      "colors",
+      { "divider": true },
+      {
+        "subheader": "utility-classes"
+      },
+      "border-radius",
+      "content",
+      "display",
+      "elevation",
+      "flex",
+      "float",
+      "overflow",
+      "sizing",
+      "spacing",
+      "text-and-typography"
+    ]
+  },
+  {
+    "title": "components",
+    "inactiveIcon": "mdi-view-dashboard-outline",
+    "activeIcon": "mdi-view-dashboard",
+    "items": [
+      "all",
+      { "divider": true },
+      { "subheader": "containment" },
+      "buttons",
+      "cards",
+      "chips",
+      "dialogs",
+      "dividers",
+      "expansion-panels",
+      "lists",
+      "menus",
+      "overlays",
+      "sheets",
+      "toolbars",
+      "tooltips",
+      { "divider": true },
+      { "subheader": "navigation" },
+      "app-bars",
+      "bottom-navigation",
+      "breadcrumbs",
+      "footers",
+      "navigation-drawers",
+      "paginations",
+      "system-bars",
+      "tabs",
+      { "divider": true },
+      { "subheader": "form-inputs-and-controls" },
+      "autocompletes",
+      "checkboxes",
+      "combobox",
+      "file-inputs",
+      "forms",
+      "inputs",
+      "radio-buttons",
+      "range-sliders",
+      "selects",
+      "sliders",
+      "switches",
+      "text-fields",
+      "textareas",
+      { "divider": true },
+      { "subheader": "data-and-display" },
+      "tables",
+      "virtual-scroller",
+      { "divider": true },
+      { "subheader": "grids" },
+      "grids",
+      { "divider": true },
+      { "subheader": "selection" },
+      "button-groups",
+      "carousels",
+      "chip-groups",
+      "item-groups",
+      "slide-groups",
+      "windows",
+      { "divider": true },
+      { "subheader": "feedback" },
+      "alerts",
+      "badges",
+      "banners",
+      "hover",
+      "progress-circular",
+      "progress-linear",
+      "ratings",
+      "snackbars",
+      "timelines",
+      { "divider": true },
+      { "subheader": "images-and-icons" },
+      "aspect-ratios",
+      "avatars",
+      "icons",
+      "images",
+      "parallax",
+      { "divider": true },
+      { "subheader": "pickers" },
+      "color-pickers",
+      { "divider": true },
+      { "subheader": "providers" },
+      "defaults-providers",
+      "locale-providers",
+      "theme-providers",
+      { "divider": true },
+      { "subheader": "miscellaneous" },
+      "lazy",
+      "no-ssr"
+    ]
+  },
+  {
+    "title": "api",
+    "inactiveIcon": "mdi-flask-empty-outline",
+    "activeIcon": "mdi-flask-outline",
+    "items": []
+  },
+  {
+    "title": "directives",
+    "inactiveIcon": "mdi-function",
+    "activeIcon": "mdi-function",
+    "items": [
+      "click-outside",
+      "intersect",
+      "mutate",
+      "resize",
+      "ripple",
+      "scroll",
+      "touch"
+    ]
+  },
+  {
+    "title": "labs",
+    "inactiveIcon": "mdi-beaker-outline",
+    "activeIcon": "mdi-beaker",
+    "items": [
+      "introduction",
+      {
+        "title": "bottom-sheets",
+        "subfolder": "components"
+      },
+      {
+        "title": "data-iterators",
+        "subfolder": "components"
+      },
+      {
+        "title": "data-tables",
+        "subfolder": "components",
+        "activeIcon": "",
+        "inactiveIcon": "",
+        "items": [
+          "basics",
+          "headers",
+          "selection",
+          "sorting",
+          "pagination",
+          "filtering",
+          "grouping",
+          "slots",
+          "virtual-tables",
+          "server-side-tables"
+        ]
+      },
+      {
+        "title": "dates",
+        "subfolder": "features"
+      },
+      {
+        "title": "infinite-scroller",
+        "subfolder": "components"
+      },
+      {
+        "title": "skeleton-loaders",
+        "subfolder": "components"
+      }
+    ]
+  },
+  {
+    "title": "resources",
+    "inactiveIcon": "mdi-human-male-board",
+    "activeIcon": "mdi-human-male-board",
+    "items": [
+      "jobs-for-vue",
+      "ui-kits",
+      "themes"
+    ]
+  },
+  {
+    "title": "about",
+    "inactiveIcon": "$vuetify-outline",
+    "activeIcon": "$vuetify",
+    "items": [
+      "security-disclosure",
+      "code-of-conduct"
+    ]
+  }
+]

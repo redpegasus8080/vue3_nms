@@ -1,0 +1,43 @@
+<template>
+  <v-col
+    cols="12"
+    md="6"
+    lg="4"
+  >
+    <v-card
+      :image="image"
+      :to="rpath(`/components/${src}/`)"
+      class="mb-3"
+      elevation="0"
+      height="164"
+    >
+      <template #image>
+        <v-img @error="hasError = true" />
+      </template>
+    </v-card>
+
+    <h2 class="text-h6">
+      <span class="text-capitalize">{{ name?.replace(/-/g, ' ') }}</span>
+    </h2>
+
+    <slot />
+  </v-col>
+</template>
+
+<script setup lang="ts">
+  // Utilities
+  import { computed, shallowRef } from 'vue'
+  import { rpath } from '@/util/routes'
+
+  const props = defineProps({
+    name: String,
+    src: String,
+  })
+
+  const hasError = shallowRef(false)
+  const image = computed(() => {
+    if (hasError.value) return 'https://cdn.vuetifyjs.com/docs/images/graphics/img-placeholder.png'
+
+    return `https://cdn.vuetifyjs.com/docs/images/preview/${props.src}.png`
+  })
+</script>
