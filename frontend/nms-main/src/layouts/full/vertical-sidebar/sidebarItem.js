@@ -25,7 +25,7 @@ export default [
         children: [
           {icon: "mdi-menu-right", title: "프로세스", to: "/thing-manage",},
           {icon: "mdi-menu-right", title: "DB Query", to: "",},
-          {icon: "mdi-menu-right", title: "HTTP Contents", to: "/device-manag",},
+          {icon: "mdi-menu-right", title: "HTTP Contents", to: "/device-manage",},
         ]
       },
     ]
