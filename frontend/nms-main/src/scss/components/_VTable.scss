@@ -1,0 +1,41 @@
+.v-table .v-table__wrapper > table > tbody > tr:not(:last-child) > td,
+.v-table .v-table__wrapper > table > tbody > tr:not(:last-child) > th,
+.v-table .v-table__wrapper > table > thead > tr:last-child > th {
+  //border-bottom: thin solid rgba(var(--v-border-color), 1) !important;
+}
+
+.v-table .v-table__wrapper > table {
+  font-size: 0.875rem;
+  & > thead {
+    background-color: #E0E0E0;
+    & > tr {
+      & > th {
+        font-size: 0.750rem;
+        font-weight: bold;
+        color: #000000 !important;
+      }
+
+    }
+  }
+}
+
+//.v-table .v-table__wrapper > table > thead > tr > th{
+//  font-size: 12px;
+//  font-weight: 500;
+//  color: #000000;
+//}
+
+.v-table.v-table--fixed-header > .v-table__wrapper > table {
+  font-size: 0.875rem;
+  & > thead {
+    background-color: #E0E0E0;
+    & > tr {
+      & > th {
+        background: #E0E0E0;
+        font-weight: bold;
+        color: #000000 !important;
+      }
+
+    }
+  }
+}

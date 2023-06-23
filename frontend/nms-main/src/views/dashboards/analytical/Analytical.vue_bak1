@@ -1,0 +1,75 @@
+<script setup>
+import Pagination from '@/components/Pagination.vue';
+import PageHeader from "@/components/PageHeader.vue";
+
+</script>
+
+<template>
+  <PageHeader title="목록" :path-list="['서비스현황','테스트']">
+    <template v-slot:button-area>
+      <CBtnPrimary append-icon="mdi-plus">너 등록</CBtnPrimary>
+      <CBtnWhite append-icon="mdi-refresh">새로고침</CBtnWhite>
+    </template>
+  </PageHeader>
+  <v-spacer class="pt-2"></v-spacer>
+
+  <v-card elevation="0" class="table-card rounded-0 px-3">
+    <v-card-item class="border-0 pa-0 ma-0">
+      <div class="d-flex border-0 ma-0 pa-0">
+        <v-spacer class="border-0"></v-spacer>
+        <v-sheet width="150" class="pr-1 bg-transparent">
+          <CSelectCompact :items="['전체', 'Colorado', 'Florida', 'Georgia', 'Texas', 'Wyoming']"></CSelectCompact>
+        </v-sheet>
+        <v-sheet width="250" class="pr-1 bg-transparent">
+          <CSearchInputCompact></CSearchInputCompact>
+        </v-sheet>
+        <CBtnWhiteCompact append-icon="mdi-filter-remove">초기화</CBtnWhiteCompact>
+      </div>
+    </v-card-item>
+    <v-divider class="mt-2"></v-divider>
+    <v-card-text class="ma-0 pa-0">
+      <v-table density="compact" hover="true">
+        <thead>
+        <tr>
+          <th class="text-left">
+            #
+          </th>
+          <th class="text-left">
+            aaaaa
+          </th>
+          <th class="text-left">
+            bbbbb
+          </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr v-for="i in 10">
+          <td>123</td>
+          <td>456</td>
+          <td>789</td>
+        </tr>
+        </tbody>
+      </v-table>
+    </v-card-text>
+    <v-card-actions class="d-flex border-0 ma-0 py-3 px-0">
+        <PaginationDisplaying firstNum="1" lastNum="10" totalNum="12345"></PaginationDisplaying>
+        <v-spacer></v-spacer>
+        <v-sheet width="100" class="pr-1 bg-transparent">
+          <CSelectCompact
+            :items="['10', '30', '50', '70', '100']"
+          ></CSelectCompact>
+        </v-sheet>
+        <Pagination
+          :pageNum="1"
+          :pageCount="10"
+          :pageRowCount="10"
+          :pageTotalCount="100"
+        ></Pagination>
+    </v-card-actions>
+  </v-card>
+
+</template>
+
+<style scoped lang="scss">
+
+</style>

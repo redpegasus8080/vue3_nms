@@ -1,0 +1,160 @@
+<script setup>
+import BaseBreadcrumb from "@/components/shared/BaseBreadcrumb.vue";
+import Pagination from '@/components/Pagination.vue';
+import {ref} from "vue";
+import CPrimaryButton from "@/components/CPrimaryButton.vue";
+
+const page = ref({title: "카탈로그 에디터"});
+const breadcrumbs = ref([
+  {
+    title: "카탈로그 관리",
+    disabled: false
+  },
+  {
+    title: "카탈로그 에디터",
+    disabled: true
+  },
+])
+
+</script>
+
+<template>
+  <v-card elevation="0" class="border-0 rounded-0 p-0 m-0">
+    <v-card-item class="py-0 px-0">
+      <v-row class="pa-0 ma-0">
+        <v-col cols="12">
+          <BaseBreadcrumb
+            :title="page.title"
+            :breadcrumbs="breadcrumbs"
+          ></BaseBreadcrumb>
+          <v-divider class="mt-2 pt-1"></v-divider>
+          <CPrimaryButton>니미럴 등록</CPrimaryButton>
+          <div class="d-flex pt-2 pb-0">
+            <v-btn
+              @click="aaa(1)"
+              color="primary"
+              append-icon="mdi-plus"
+              class="rounded-0"
+              flat="">
+              Dashboard 등록
+            </v-btn>
+
+            <v-btn
+              color="#ffffff"
+              append-icon="mdi-refresh"
+              class="rounded-0 border-md ml-3"
+              flat="">
+              새로고침
+            </v-btn>
+          </div>
+        </v-col>
+      </v-row>
+    </v-card-item>
+  </v-card>
+
+  <v-spacer class="pt-2"></v-spacer>
+
+
+  <v-card elevation="0" class="table-card rounded-0 px-3">
+    <v-card-item class="border-0 pa-0 ma-0">
+      <div class="d-flex border-0 ma-0 pa-0">
+<!--        <v-card-title class="text-h5">{{ title }}</v-card-title>-->
+        <!-- <template v-slot:append> -->
+
+          <v-spacer class="border-0"></v-spacer>
+          <v-sheet width="150" class="pr-1 bg-transparent">
+            <v-select
+              class="search-input pt-0 pb-0 ma-0 bg-white"
+              label="전체"
+              variant="outlined"
+              single-line
+              hide-details
+              density="compact"
+              :items="['전체', 'Colorado', 'Florida', 'Georgia', 'Texas', 'Wyoming']"
+            ></v-select>
+          </v-sheet>
+          <v-sheet width="250" class="pr-1 bg-transparent">
+            <v-text-field
+              class="search-input pt-0 pb-0 ma-0 bg-white"
+              variant="outlined"
+              append-inner-icon="mdi-magnify"
+              single-line
+              placeholder="Search"
+              hide-details
+              density="compact"
+            ></v-text-field>
+          </v-sheet>
+          <v-btn
+            color="#ffffff"
+            append-icon="mdi-filter-remove"
+            class="rounded-0 border-md"
+            flat=""
+            height="28"
+          >
+            초기화
+          </v-btn>
+<!--        </slot>-->
+        <!-- </template> -->
+      </div>
+
+
+    </v-card-item>
+    <v-divider class="mt-2"></v-divider>
+    <v-card-text class="ma-0 pa-0">
+      <v-table
+        density="compact"
+        hover=""
+      >
+        <thead>
+        <tr>
+          <th class="text-left">
+            #
+          </th>
+          <th class="text-left">
+            aaaaa
+          </th>
+          <th class="text-left">
+            bbbbb
+          </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr  v-for="i in 10">
+          <td>123</td>
+          <td>456</td>
+          <td>789</td>
+        </tr>
+        </tbody>
+      </v-table>
+    </v-card-text>
+  </v-card>
+
+  <div class="d-flex border-0 ma-0 pa-3">
+    <span style="font-size: 0.875rem">Displaying 1 - 10 of 2628</span>
+    <v-spacer></v-spacer>
+    <v-sheet width="100" class="pr-1 bg-transparent">
+      <v-select
+        class="search-input pt-0 pb-0 ma-0 bg-white"
+        variant="outlined"
+        single-line
+        hide-details
+        density="compact"
+        :items="['10', '30', '50', '70', '100']"
+      ></v-select>
+    </v-sheet>
+
+      <Pagination
+        :pageNum = "1"
+        :pageCount = "10"
+        :pageRowCount = "10"
+        :pageTotalCount = "100"
+      ></Pagination>
+
+
+  </div>
+
+</template>
+
+<style scoped lang="scss">
+
+</style>

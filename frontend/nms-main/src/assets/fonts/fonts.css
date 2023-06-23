@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(Roboto_400_normal.eot); /* http://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxO.eot */
+    src: local('☺'),
+        url(Roboto_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxO.eot */
+        url(Roboto_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2 */
+        url(Roboto_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxM.woff */
+        url(Roboto_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxPKTU1Kg.ttf */
+        url(Roboto_400_normal.svg#Roboto_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=KFOmCnqEu92Fr1Mu4mxN&skey=a0a0114a1dcab3ac&v=v30#Roboto */
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: url(Roboto_100_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Roboto_100_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Roboto_100_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgVxIIzI.woff2 */
+        url(Roboto_100_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgVxIIzQ.woff */
+        url(Roboto_100_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgVxIIzcXKMny.ttf */
+        url(Roboto_100_normal.svg#Roboto_100_normal) format('svg'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(Roboto_300_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Roboto_300_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Roboto_300_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4.woff2 */
+        url(Roboto_300_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc-.woff */
+        url(Roboto_300_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc9AMP6lQ.ttf */
+        url(Roboto_300_normal.svg#Roboto_300_normal) format('svg'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(Roboto_500_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Roboto_500_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Roboto_500_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2 */
+        url(Roboto_500_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc-.woff */
+        url(Roboto_500_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc9AMP6lQ.ttf */
+        url(Roboto_500_normal.svg#Roboto_500_normal) format('svg'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(Roboto_700_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Roboto_700_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Roboto_700_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4.woff2 */
+        url(Roboto_700_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc-.woff */
+        url(Roboto_700_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc9AMP6lQ.ttf */
+        url(Roboto_700_normal.svg#Roboto_700_normal) format('svg'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url(Noto+Sans+KR_400_normal.eot); /* http://fonts.gstatic.com/s/notosanskr/v27/PbykFmXiEBPT4ITbgNA5Cgm21w.eot */
+    src: local('☺'),
+        url(Noto+Sans+KR_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/notosanskr/v27/PbykFmXiEBPT4ITbgNA5Cgm21w.eot */
+        url(Noto+Sans+KR_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/notosanskr/v27/PbykFmXiEBPT4ITbgNA5Cgm20w.woff2 */
+        url(Noto+Sans+KR_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/notosanskr/v27/PbykFmXiEBPT4ITbgNA5Cgm21Q.woff */
+        url(Noto+Sans+KR_400_normal.ttf) format('truetype'), /* {{truetype-gf-url}} */
+        url(Noto+Sans+KR_400_normal.svg#Noto+Sans+KR_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=PbykFmXiEBPT4ITbgNA5Cgm21A&skey=87e7ee645936e2c7&v=v27#NotoSansKR */
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 100;
+    src: url(Noto+Sans+KR_100_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Noto+Sans+KR_100_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Noto+Sans+KR_100_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/notosanskr/v27/Pby6FmXiEBPT4ITbgNA5CgmOsn7t.woff2 */
+        url(Noto+Sans+KR_100_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/notosanskr/v27/Pby6FmXiEBPT4ITbgNA5CgmOsn7r.woff */
+        url(Noto+Sans+KR_100_normal.ttf) format('truetype'), /* {{truetype-gf-url}} */
+        url(Noto+Sans+KR_100_normal.svg#Noto+Sans+KR_100_normal) format('svg'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    src: url(Noto+Sans+KR_300_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Noto+Sans+KR_300_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Noto+Sans+KR_300_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/notosanskr/v27/Pby7FmXiEBPT4ITbgNA5CgmOelzI7Q.woff2 */
+        url(Noto+Sans+KR_300_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/notosanskr/v27/Pby7FmXiEBPT4ITbgNA5CgmOelzI6w.woff */
+        url(Noto+Sans+KR_300_normal.ttf) format('truetype'), /* {{truetype-gf-url}} */
+        url(Noto+Sans+KR_300_normal.svg#Noto+Sans+KR_300_normal) format('svg'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: url(Noto+Sans+KR_500_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Noto+Sans+KR_500_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Noto+Sans+KR_500_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/notosanskr/v27/Pby7FmXiEBPT4ITbgNA5CgmOIl3I7Q.woff2 */
+        url(Noto+Sans+KR_500_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/notosanskr/v27/Pby7FmXiEBPT4ITbgNA5CgmOIl3I6w.woff */
+        url(Noto+Sans+KR_500_normal.ttf) format('truetype'), /* {{truetype-gf-url}} */
+        url(Noto+Sans+KR_500_normal.svg#Noto+Sans+KR_500_normal) format('svg'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: url(Noto+Sans+KR_700_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Noto+Sans+KR_700_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Noto+Sans+KR_700_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/notosanskr/v27/Pby7FmXiEBPT4ITbgNA5CgmOalvI7Q.woff2 */
+        url(Noto+Sans+KR_700_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/notosanskr/v27/Pby7FmXiEBPT4ITbgNA5CgmOalvI6w.woff */
+        url(Noto+Sans+KR_700_normal.ttf) format('truetype'), /* {{truetype-gf-url}} */
+        url(Noto+Sans+KR_700_normal.svg#Noto+Sans+KR_700_normal) format('svg'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 900;
+    src: url(Noto+Sans+KR_900_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Noto+Sans+KR_900_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Noto+Sans+KR_900_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/notosanskr/v27/Pby7FmXiEBPT4ITbgNA5CgmOUlnI7Q.woff2 */
+        url(Noto+Sans+KR_900_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/notosanskr/v27/Pby7FmXiEBPT4ITbgNA5CgmOUlnI6w.woff */
+        url(Noto+Sans+KR_900_normal.ttf) format('truetype'), /* {{truetype-gf-url}} */
+        url(Noto+Sans+KR_900_normal.svg#Noto+Sans+KR_900_normal) format('svg'); /* {{svg-gf-url}} */
+}
